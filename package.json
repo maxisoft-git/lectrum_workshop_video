@@ -1,0 +1,36 @@
+{
+    "name": "react-workshop",
+    "version": "2.0.0",
+    "author": "Dima Vakatsiienko <dvakatsiienko@lectrum.io>",
+    "private": true,
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-scripts eject",
+        "checkpoint": "cross-env-shell NODE_ENV=development node --require @babel/register \"./scripts/git/checkpoint.js\"",
+        "sync": "cross-env-shell NODE_ENV=development node --require @babel/register \"./scripts/git/sync.js\""
+    },
+    "dependencies": {
+        "classnames": "2.2.6",
+        "react": "16.8.3",
+        "react-dom": "16.8.3",
+        "react-vanilla-tilt": "1.0.0",
+        "sanitize.css": "8.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "7.3.4",
+        "@babel/preset-env": "7.3.4",
+        "@babel/register": "7.0.0",
+        "@lectrum/eslint-config-core": "1.1.15",
+        "app-root-path": "2.1.0",
+        "babel-plugin-dynamic-import-node": "2.2.0",
+        "cross-env": "5.2.0",
+        "moment": "2.24.0",
+        "nodegit": "0.24.1",
+        "postcss-preset-env": "6.5.0",
+        "react-app-rewire-postcss": "3.0.2",
+        "react-app-rewired": "2.1.0",
+        "react-scripts": "2.1.5"
+    }
+}
